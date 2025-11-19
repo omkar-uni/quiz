@@ -11,7 +11,7 @@ export default function Leaderboard({ onBack }) {
 
   async function loadLeaderboard() {
     try {
-      const res = await fetch("http://localhost:3000/api/getLeaderboard");
+      const res = await fetch("/api/getLeaderboard");
       const data = await res.json();
 
       // Sorting
