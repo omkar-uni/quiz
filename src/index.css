@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+body {
+  @apply bg-gradient-to-br from-[#0C0F1A] via-[#141A2F] to-[#0C0F1A] text-white;
+  font-family: "Inter", sans-serif;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
